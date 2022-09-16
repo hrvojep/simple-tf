@@ -14,14 +14,14 @@ provider "aws" {
 
 
 
-resource "aws_instance" "app_server" {
-  ami           = "ami-01235362b98157fe1"
-  instance_type = "t2.micro"
-  count = 1
-  tags = {
-    Name = "H-test"
-  }
-}
+# resource "aws_instance" "app_server" {
+#   ami           = "ami-01235362b98157fe1"
+#   instance_type = "t2.micro"
+#   count = 1
+#   tags = {
+#     Name = "H-test"
+#   }
+# }
 
 
 
