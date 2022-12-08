@@ -17,7 +17,7 @@ provider "aws" {
 resource "aws_instance" "app_server" {
   ami           = "ami-02a66f06b3557a897"
   instance_type = "t3.nano"
-  count = 4
+  count = 10
   tags = {
     Name = "H-test"
   }
